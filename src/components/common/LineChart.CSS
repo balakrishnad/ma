@@ -1,0 +1,106 @@
+.multicolor-bar {
+	margin:1% 0%;
+}
+.multicolor-bar .values .value {
+	text-align: center;
+}
+.multicolor-bar .bars{
+    height: 16px;
+    
+}
+.bars, .values {
+    display: flex;
+}
+.bars{
+    background:rgba(204,204,204,.4);
+
+}
+.values {
+    margin-top:0.5rem;
+}
+.lineChartTitle{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: rgb(123, 122, 122);
+    font-family: Myriad-Pro;
+}
+.colorBox{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px 
+}
+.legendsWrapper{
+    display: flex;
+    padding-right: 1.5rem;
+}
+.values.d-sm-block {
+    display: flex!important;
+}
+.bars.d-sm-block {
+    display: flex!important;
+}
+.lineChartCampaign{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: rgb(123, 122, 122);
+    font-family: Myriad-Pro;
+}
+.lineChart-styling{
+    margin-bottom: 1rem;
+     margin-top: 2rem;
+     font-weight: bold;
+      color: #7b7a7a;
+       font-family: Myriad-Pro;
+}
+.itemname-styling{
+    color: #9d9c9c;
+     font-family: Myriad-Pro;
+      padding-top: 0.1rem;
+       text-transform: uppercase;
+}
+.itemvalue-styling{
+    font-weight: bold;
+     color: #7b7a7a;
+      padding-top: 0.1rem;  
+}
+@media only screen and (max-width: 767px) {
+    .lineChartTitle{
+        font-weight: normal;
+        font-size: 14px;
+    }
+    .colorBox{
+        height: 15px;
+        width: 15px;
+    }
+    .legendsWrapper {
+        padding-right: 5px;
+        font-size: 11px;
+    }
+    .legendsWrapper.mobileBlock{
+        display: flex!important;
+    }
+    .values.d-none{
+        display:none!important;
+    }
+    .bars.d-none {
+        display: none!important;
+    }
+    .lineChartCampaign{
+        font-size:12px;
+        font-weight: normal;
+        display: flex;
+        justify-content: space-between;
+    }
+    .totalNumberTitle{
+        line-height: 4;
+    }
+    .legendsWrapperMobile {
+        margin: 0.5rem 0 0.5rem 5.5rem;
+    }
+}
+
+@media (max-device-width: 768px) and (orientation: landscape) {
+    .legendsWrapperMobile{
+        margin: 0.5rem 0 0.5rem 13.5rem;
+    }
+}

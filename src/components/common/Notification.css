@@ -1,0 +1,78 @@
+.hold {
+    background: rgba(216, 175, 4, 0.05);
+    border-left: 5px solid rgb(216, 175, 4);
+}
+
+.lock, .rejected {
+    background: rgba(206, 3, 42, 0.05);
+    border-left: 5px solid rgb(206, 3, 42);
+}
+
+.success {
+    background: rgba(3, 164, 82, 0.05);
+    border-left: 5px solid rgb(3, 164, 82);
+}
+
+.reuse {
+    background: rgba(172, 206, 247, 0.2);
+    border-left: 5px solid rgba(0, 123, 255, 1);
+}
+
+.defaultN {
+    background: rgb(222, 226, 230);
+	border-left: 5px solid rgb(173, 181, 189);
+}
+
+.date {
+    color: #5A5A5A;
+}
+
+.n-card {
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: "Myriad-Pro";
+    cursor: pointer;
+}
+
+.notificationIcon {
+    float: left;
+    width: 15px;
+    height: 20px;
+    /* style={{ float: 'left', width: '15px', height: '20px' }} */
+}
+
+.notificationIcon svg {
+    width: 100%;
+}
+
+.isRead {
+    opacity: 0.6;
+}
+
+.deleteNotification {
+    cursor: pointer;
+    background: rgb(213, 61, 1);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    border-radius: 100%;
+    opacity: 0.6;
+}
+
+.deleteNotification svg {
+    fill: #ddd !important;
+}
+
+.deleteNotification:hover {
+    opacity: 1;
+}
+.para-notification-styling{
+   padding-left: 0.5rem;
+}
+.Para-date-styling{
+   margin-left: 2rem;
+}

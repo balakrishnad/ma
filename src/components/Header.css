@@ -1,0 +1,173 @@
+.MA_Header {
+  /* position: relative;
+  display: block;
+  height: 4.375rem;
+  width: 100%;*/
+  background-color: #ffffff;
+}
+
+.MA_HeaderTitle_1, .MA_HeaderTitle_2 {
+  color: #0C2D83;
+  font-size: 1.625rem;
+  font-style: Open Sans;
+}
+
+.MA_HeaderTitle_1 {
+  font-weight: 500;
+}
+
+.MA_HeaderTitle_2 {
+  font-weight: 700;
+}
+
+.MA_Logo, .MA_Header_Right, .MA_Notification_Icon_Wrapper, .MA_UserProfile_Wrapper, .MA_ProfilePicture_container {
+  display: inline-flex;
+}
+
+.MA_Header_Title_Wrapper {
+  display: inline-block;
+}
+
+.MA_UserName_Role_container {
+  display: inline-block;
+  vertical-align: top;
+  /* margin-top: .4rem; */
+}
+
+.MA_UserProfile {
+  display: inline-block;
+  margin-top: 0.6rem;
+}
+
+.MA_Logo img {
+  margin-top: 0.3125rem;
+  margin-left: 1.875rem;
+  height: 4.75rem;
+}
+
+.MA_Header_Title_Wrapper {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  margin-left: -4.375rem;
+}
+
+.MA_Header_Right {
+  /* display: inline-block; */
+  float: right;
+  margin-right: 1.875rem;
+}
+
+.MA_Notification_Icon_Wrapper {
+  margin-right: 1.875rem;
+  margin-top: 1.25rem;
+  color: #d8d8d8;
+  cursor: pointer;
+}
+
+.MA_ProfilePicture_container {
+  margin-right: .6rem;
+}
+
+.MA_ProfilePicture_container img {
+  /* position: absolute; */
+  height: 3.125rem;
+  border-radius: 3.125rem;
+}
+
+.MA_UserName, .MA_UserRole {
+  font-size: 0.875rem;
+}
+
+.MA_UserName {
+  font-style: "Open Sans";
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.BellIcon {
+  /* font-size: 1.5rem; */
+  fill: #0C2D83;
+}
+
+.MA_UserRole {
+  color: #4D4F5C;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  margin-top: 0.1875rem;
+}
+
+.MA_UserName_Role_container button {
+  border: none;
+  background-color: #ffffff;
+  height: 1.375rem;
+  width: 7.375rem;
+  padding: 0;
+  font-weight: 700;
+}
+
+.MA_UserName_Role_container button:focus {
+  outline: none;
+}
+
+.MA_DownArrowIcon {
+  padding-left: .8rem;
+  cursor: pointer;
+}
+
+.MA_UserOptions {
+  position: absolute;
+  z-index: 999999;
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px #b2b3b4;
+  cursor: pointer;
+  min-width: 14rem; /*to have same width of the dropdown menu with and without CMM*/
+}
+
+.ArrowDown {
+  width: 12px;
+  color: #d8d8d8;
+}
+
+.MA_UserRoles {
+  padding: .4rem .8rem;
+  cursor: pointer;
+  border-bottom: solid 1px #ccc;
+}
+.badge-pill {
+  padding-left: 0.4rem !important;
+  padding-right: 0.4rem !important;
+}
+.bellicon-notification{
+  margin-Left: -0.6rem;
+   margin-Top: -0.4rem;
+}
+/* added for Mobile */
+@media only screen and (max-width: 767px) {
+.MA_Header_Right {margin-right: 0;}
+.MA_Header{background: transparent;}
+.MA_Notification_Icon_Wrapper{margin: 0;}
+.MA_Header_Title_Wrapper {top: 0.5rem;}
+
+}
+
+/* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+  .MA_Logo img {
+    height: 3.75rem;
+  }
+  .MA_HeaderTitle_1, .MA_HeaderTitle_2 {
+    font-size: 1.425rem;
+  }
+  .MA_Logo img {
+    margin-top: 0;
+    margin-left: 0;
+  }  
+  .MA_Header_Right {
+    margin-right: 0;
+  }
+  .MA_ProfilePicture_container img {
+  height: 2.425rem;
+  }
+}

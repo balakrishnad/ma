@@ -1,0 +1,99 @@
+.custom-label-wrapper {
+    text-align: left;
+    /* height: 46px; */
+}
+
+.custom-label-name {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #1E1E1E;
+    opacity: 0.8;
+}
+
+.custom-label-value {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #1E1E1E;
+    opacity: 1;
+    padding-right: 10px;
+}
+
+.custom-label-value-ellipsis {
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.custom-label-link-value {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #276BBF;
+    opacity: 1;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.custom-label-tooltip-container {
+    float: right;
+    bottom: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.custom-label-tooltip-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #a8a8ec;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-label-arrow-icon {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    /* margin-bottom: 5px; */
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    /* margin-bottom: 2px; */
+    margin-top: 7px
+}
+.heightInherit {
+    height: inherit
+}
+.popoverWidth {
+    max-width: 500px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    div.popoverWidth#custom-label-popover-contained {
+        width: 50% !important;
+    }
+  }
+
+  /* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+
+  div.popoverWidth#custom-label-popover-contained {
+        width: 50% !important;
+    }
+}

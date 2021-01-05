@@ -1,0 +1,19 @@
+.status-container {
+    width: 80px;
+    height: 25px;
+    background-color: #008240;
+    opacity: 1;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.status-text {
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #F5F9F9;
+    opacity: 1;
+    vertical-align: middle;
+    position: relative;
+    font-weight: 400;
+    line-height: 2;
+}

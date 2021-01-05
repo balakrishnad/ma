@@ -1,0 +1,32 @@
+.circle-radius{
+    opacity: 1;
+    border-radius: 50%;
+    cursor: pointer;
+     /* margin: 'auto' */
+}
+.circle-change{
+        width: 23px;
+         height: 23px;
+         margin-top: -5px;
+        position: absolute;
+         margin-left: 53px;
+        opacity: 1;
+        background-color: white;
+        border-radius: 50%;
+}
+.circle-icon{
+    border-radius: 50%;
+                margin: 0.45rem;
+                text-align: center;
+                color: white;
+}
+.inner-icon{
+  padding: 0.8rem;
+   padding-left: 1rem;
+}
+.tick-icon{
+  color: #207CF3;
+}
+.icon-color{
+ fill: white;
+}

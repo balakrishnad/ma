@@ -1,0 +1,23 @@
+.MA_Footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #E6E6E6;
+    height: 3.1875rem;
+    clear: both;
+    /* padding-top: .4rem; */
+    text-align: center; 
+    padding: 1.0625rem 0;  
+}
+.MA_Footer span{
+    margin-left: 2.125rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #07182D;
+}
+
+@media only screen and (max-width: 767px) {
+    .MA_Footer span {
+        margin-left: 0;
+    }
+}

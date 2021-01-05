@@ -1,0 +1,175 @@
+.Workflow-report-result-wrapper {
+    margin-top: 2rem;
+}
+
+.Workflow-report-result-wrapper .btnGroup .primary {
+    margin: 0;
+}
+
+.Workflow-report-result-wrapper .displayBlock {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.Workflow-report-result-wrapper .wf-filterText {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.Workflow-report-result-wrapper .wf-filterText div {
+    width: 100%;
+}
+
+.Workflow-report-result-wrapper .campaign-Card {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 2rem;
+    box-shadow: 0px 1px 8px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.Workflow-report-result-wrapper .heading {
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Workflow-report-result-wrapper .first-col {
+    background: #BCDCEE 0% 0% no-repeat padding-box;
+    border-top-left-radius: 10px;
+    padding: 1rem;
+    border: 1px solid #28BEF0;
+}
+
+.Workflow-report-result-wrapper .padding-1rem {
+    padding: 1rem;
+    background: rgba(188, 220, 238, 0.3);
+    border-bottom: 1px solid rgba(40, 190, 240, 1);
+    /* width: 12.5%; */
+}
+
+.Workflow-report-result-wrapper .first-col-data {
+    border-right: 1px solid #28BEF0;
+    border-left: 1px solid #28BEF0;
+    background: #BCDCEE 0% 0% no-repeat padding-box;
+    padding: 1rem;
+    border-bottom: 1px solid #28BEF0;
+}
+
+.Workflow-report-result-wrapper .row {
+    margin: 0;
+}
+
+.Workflow-report-result-wrapper .padding-1rem-col {
+    padding: 1rem;
+    /* width: 12.5%; */
+}
+
+.campaign-Card .row:nth-child(odd) .first-col-data {
+    background: rgb(223, 237, 245) 0% 0% no-repeat padding-box;
+}
+
+.campaign-Card .row:last-of-type .first-col-data {
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid #28BEF0;
+}
+
+.Workflow-report-result-wrapper .second-col-data .row:nth-child(even) {
+    background: rgba(242, 242, 242, 0.5);
+}
+
+.Workflow-report-result-wrapper .custom-label-wrapper {
+    min-height: 4rem
+}
+
+.Workflow-report-result-wrapper .status .custom-label-wrapper {
+    min-height: 2.5rem
+}
+
+.Workflow-report-result-wrapper .manager-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+    padding-right: 10px;
+    margin: 0;
+    background: rgba(188, 220, 238, 0.2);
+    padding: 0.5rem;
+    height: auto;
+}
+
+.Workflow-report-result-wrapper .card-header {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.Workflow-report-result-wrapper .collapse, .Workflow-report-result-wrapper .collapsing {
+    padding: 0.5rem;
+}
+
+/* .Workflow-report-result-wrapper .card {
+    border: none;
+} */
+
+.wf-filterText .MA_Dropdown {
+    bottom: 1rem;
+}
+
+.campaign-styling {
+    display: flex;
+    width: 15%;
+    font-weight: bold;
+}
+
+.invent-styling {
+    width: 85%;
+    display: flex;
+    font-weight: bold;
+}
+
+.first-col-data {
+    width: 15%;
+}
+
+.status-styling {
+    width: 85%;
+    display: flex;
+    font-weight: bold;
+}
+
+.dotted-styling {
+    margin-top: 2rem;
+}
+
+.column-styling {
+    padding: 0;
+    padding-top: 3rem;
+}
+
+.row-styling {
+    padding-right: 0;
+    padding-left: 3rem;
+}
+
+.second-styling {
+    width: 85%;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.3);
+    height: auto;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .row-styling {
+        padding: 0;
+    }
+
+    .column-styling {
+        padding: 0;
+    }
+}

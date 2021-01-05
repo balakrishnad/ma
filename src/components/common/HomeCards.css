@@ -1,0 +1,157 @@
+.HomeCard {
+    height: 25rem;
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: 8rem auto 0 auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.101961);
+    background: #fff;
+}
+
+.svgRound {
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: -17%;
+    height: 10rem;
+    width: 10rem;
+    left: 31%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.101961);
+    line-height: 9.3;
+}
+
+.bottomText {
+    padding-top: 7rem;
+}
+
+.Digit {
+    font-size: 72px;
+    font-family: "Myriad-Pro";
+    margin-bottom: 0;
+}
+
+.Label {
+    font-size: 24px;
+    font-family: "Myriad-Pro";
+    color: #656363;
+    width: 50%;
+    margin: 0 auto 2.3rem auto;
+}
+
+.btnNext {
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 4rem;
+}
+
+.btnWrapper {
+    position: absolute;
+    bottom: -7%;
+    left: 31%;
+}
+.styling-txt{
+   padding: 2.3rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .bottomText {
+        display: flex;
+    }
+    .Digit {
+        padding: 0px 0rem 0 1rem;
+        font-size: 50px;
+    }
+    .HomeCard {
+        height: 17.6rem;
+        width: 90%;
+        margin: 3rem 1rem;
+    }
+    .svgRound {
+        top: -17%;
+        height: 8rem;
+        width: 8rem;
+        left: 29%;
+    }
+    .svgRound svg {
+        height: 4rem;
+        width: 4rem;
+        position: absolute;
+        top: 1.6rem;
+        left: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .HomeCard {
+        height: 19rem;
+        width: 19rem;
+    }
+    .Label {
+        width: 70%;
+    }
+    .svgRound {
+        height: 8rem;
+        width: 8rem;
+        left: 29%;
+        line-height: 7.3;
+    }
+    .svgRound svg {
+        height: 8rem;
+        width: 4em;
+    }
+    .bottomText {
+        padding-top: 4rem;
+    }
+    .btnWrapper {
+        left: 24%;
+    }
+}
+
+@media (min-width: 1030px) and (max-width: 1366px) {
+    .svgRound {
+        left: 24%;
+    }
+    .btnWrapper {
+        left: 25%;
+    }
+}
+
+@media (max-device-width: 768px) and (orientation: landscape) {
+    .svgRound svg {
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+    .svgRound {
+        top: -17%;
+        height: 5rem;
+        width: 5rem;
+        left: 26%;
+    }
+    .Label {
+        font-size: 15px;
+    }
+    .Digit {
+        font-size: 40px;
+    }
+    .HomeCard {
+        height: 12.6rem;
+    }
+    .bottomText {
+        padding-top: 5rem;
+    }
+}
+
+/* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+    .ipadClass{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .Digit {
+        margin: 15px 0 0 0;
+    }
+}

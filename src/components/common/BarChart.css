@@ -1,0 +1,43 @@
+.bar {
+	shape-rendering: crispEdges;
+}
+
+.bar-label {
+	fill: #000;
+	text-anchor: middle;
+	font-size: 12px;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+#chart {
+	border: 1px solid #ADADAD;
+	margin: 0.5rem auto;
+}
+
+.ylabel, .xlabel {
+	font-size: 20px;
+	text-anchor: middle;
+}
+
+/* Added for Mobile */
+@media only screen and (max-width:768px) {
+	#barchart {
+		text-align: center;
+	}
+	.ylabel, .xlabel {
+		font-size: 10px;
+		text-anchor: middle;
+	}
+	.display {
+		width: 90%;
+	}
+	.bar-label, .tick {
+		font-size: 8px;
+		;
+	}
+}

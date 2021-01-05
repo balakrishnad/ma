@@ -1,0 +1,31 @@
+.primary {
+    background-color: #008240;
+    color: #ffffff;
+    font-weight: Bold; 
+    font-size: 20px;
+    letter-spacing: 0;
+    border: 1px solid #008240;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto 0.5rem;
+}
+.secondary {
+    background-color: #ffffff;
+    color: #008240;
+    font-weight: Bold; 
+    font-size: 20px;
+    letter-spacing: 0;
+    border: 1px solid #008240;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto 0.5rem;
+}
+
+.MA_ButtonDisabled{
+    background-color: #ebebeb !important;
+    color: #aeaeae !important;
+    border: 1px solid #e3e3e3 !important;
+    cursor: unset !important;
+}

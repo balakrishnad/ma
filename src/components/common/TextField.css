@@ -1,0 +1,108 @@
+.textField {
+    display: table;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.textField label {
+    display: table-header-group;
+    font-family: "Myriad-Pro";
+    font-size: 14px;
+}
+
+.textField input[type=text] {
+    display: table-row-group;
+}
+
+.textField input[type=text]:focus+label {
+    font-weight: bold;
+}
+
+.textField input[type=text] {
+    border: 0;
+    width: 100%;
+    padding: 8px 0;
+    margin: 0 0 7px 0;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    /* color: #1E1E1E; */
+    font-family: "Myriad-Pro";
+}
+
+.textField input[type=text]:focus {
+    outline: none;
+    font-weight: bold;
+    border-bottom: 2px solid #28BEF0;
+}
+
+.textField input[type=text]:focus::placeholder {
+    color: transparent;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    /* color: #5A5A5A; */
+    font-family: "Myriad-Pro";
+    font-weight: lighter;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    /* color: #5A5A5A; */
+    font-family: "Myriad-Pro";
+    font-weight: lighter;
+}
+::-ms-clear {
+    display: none;
+}
+::placeholder {
+    /* color: #5A5A5A; */
+    font-family: "Myriad-Pro";
+    font-weight: lighter;
+}
+
+.InfoIconContainer {
+    position: relative;
+}
+
+.InfoIconContainer::after {
+    box-sizing: initial;
+}
+
+.InfoIconContainer::before {
+    box-sizing: initial;
+}
+
+.Tooltip_container {
+    position: absolute;
+    display: none;
+    top: -100%;
+    left: 170%;
+}
+
+.InfoIconContainer:hover .Tooltip_container {
+    display: block;
+}
+
+.textField-error {
+    background-color: rgba(255, 100, 100, 0.85) !important;
+    padding: 2px 10px;
+    color: white;
+    border-radius: 2px;
+}
+.input-dollar {
+    position: relative;
+}
+.input-dollar input {
+    padding-left: 1rem !important;
+}
+.input-dollar:before {
+    position: absolute;
+    content:"$";
+    margin-top: 0.4rem;
+}
+.asterisk{
+    color:red;
+}

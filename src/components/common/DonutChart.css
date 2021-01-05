@@ -1,0 +1,84 @@
+g.legend {
+    display: inline;
+}
+
+.mainTooltip p{
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+
+
+.mainTooltip {
+    position: absolute;
+    /* min-width: 90px;
+    height: 40px;
+    padding: 0 0 25px 0; */
+    background-color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    fill: #fff;
+    color: #000000;
+    text-anchor: middle;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    z-index: 9999;
+    display: none;
+}
+
+.donut-container {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+
+.donutDiv {
+    float: left;
+}
+
+.legendDiv {
+    /* overflow: auto; */
+    /* max-height: 12rem; */
+    /* max-width: 14rem; */
+    border: 2px solid rgba(105, 105, 105, .2);
+}
+
+.donut-container ::-webkit-scrollbar-thumb {
+    background: #28BEF0;
+    border-radius: 2px;
+    height: 15px;
+}
+
+.donut-container ::-webkit-scrollbar {
+    width: 10px;
+    height: 40px;
+}
+
+#legendDiv-venueType svg, #legendDiv-mediaChannel svg, #legendDiv-campMediaChannel svg,#legendDiv-campMediaChannel_mobile svg{
+    padding: 0.2rem;
+}
+
+/* added for mobile */
+
+@media only screen and (max-width:768px) {
+    .legendDiv {
+        display: none;
+    }
+    .donut-container {
+        display: flex;
+        justify-content: center;
+    }
+    .donutTitle {
+        font-size: 14px;
+    }
+    .subTitle.col-md-12.col-12 {
+        padding: 0;
+    }
+}

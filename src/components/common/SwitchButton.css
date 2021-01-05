@@ -1,0 +1,4 @@
+#customSwitchesChecked:checked~.custom-control-label::before {
+    border-color: #008240 !important;
+    background-color: #008240 !important;
+}
