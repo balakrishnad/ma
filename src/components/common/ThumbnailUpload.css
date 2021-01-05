@@ -1,0 +1,241 @@
+.drangAndDropContext {
+    font-family: 'Myriad-Pro';
+    
+}
+.drangAndDropContext .close-btn {
+    display: block;
+}
+
+.drangAndDropContext .MuiButtonBase-root {
+    display: none;
+}
+
+.MuiFab-label {
+    display: none;
+}
+
+.uploadControl div div {
+    text-align: left;
+}
+
+.uploadControl .MuiTypography-body1 .cloud-icon>svg {
+    display: inline-block;
+}
+.MuiFab-label:before {
+    content: "X";
+}
+.uploadControl .MuiGrid-container {
+    position: absolute;
+    top: 35%;
+    left: 115%;
+    background: rgba(183, 183, 183, 0.1);
+    width: 65%;
+}
+
+.uploadControl .MuiGrid-container button {
+    opacity: 1;
+    position: relative;
+    top: -48px;
+    z-index: 999999;
+    left: 88%;
+    height: 10px;
+    pointer-events: all;
+    width: 22px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.uploadControl .MuiGrid-container button:hover {
+    background: transparent;
+    box-shadow: none;
+    color: black;
+}
+
+.uploadControl .MuiGrid-spacing-xs-8>.MuiGrid-item {
+    display: inline;
+}
+
+.uploadControl .MuiGrid-grid-xs-4 .MuiSvgIcon-root {
+    display: none;
+}
+
+.uploadControl .MuiGrid-container {
+    display: inline-block;
+    pointer-events: none;
+}
+
+.uploadControl .MuiGrid-container p {
+    width: 80%;
+    border-bottom: 2px solid green;
+    color: green;
+    margin: 1em;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+.uploadControl .LinkInput {
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    border-left: none;
+    border-image: initial;
+}
+.uploadControl .or {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #ccc;
+    line-height: 3;
+    text-align: center;
+    margin-right: 1rem; 
+}
+.uploadControl .LinkInput {
+    outline: none;
+    font-family: "Myriad-Pro";
+    font-size: 16px;
+    line-height: 2;
+    width: 91%;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #707070;
+    border-left: none;
+    border-image: initial;
+    color: #5A5A5A;
+}
+.modal-dialog.uploadControl{
+    width: 60%;
+    max-width: 100%;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: "Myriad-Pro";
+    font-size: 20px;
+    font-weight: normal;
+}
+.modal-header {
+    background-color: #00abe3;
+    color: #fff;
+    border-radius: 0;
+}
+.modal-body .dropzone-area{
+    width: 57%;
+    border: dashed 2px #c8c8c8;
+    background-color: transparent;
+    z-index: 99;
+}
+.modal-body .MuiSvgIcon-root,.modal-body .MuiButtonBase-root .MuiFab-label svg{
+    display: none;
+}
+.modal-body .MuiButtonBase-root .MuiSvgIcon-root{display: inline-block;}
+.file-upload-info-text {
+    position: absolute !important;
+    top: 16% !important;
+    left: 12% !important;
+    width: 75% !important;
+}
+#custom-inline-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background: #006EB4 !important;
+    background-color: #006EB4 !important;
+    height: 20px;
+    width: 20px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    height: 21px;
+    width: 21px;
+}
+.custom-control-label {
+    margin-bottom: 0.5rem;
+    font-family: "Myriad-Pro";
+    color: #1E1E1E;
+    font-size: 16px;
+    padding-left: 1rem;
+}
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    height: 20px;
+    width: 20px;
+}
+.custom-control-label::after {
+    position: absolute;
+    top: .25rem;
+    left: -1.6rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background: no-repeat 55%/60% 80%;
+}
+input[type=checkbox]:focus {
+    outline: none;
+}
+.modal-content{
+    border-radius: 0;
+    box-shadow: 0px 3px 30px #00000029;
+    border: 0;
+}
+.custom-control-input:focus~.custom-control-label::before{
+    box-shadow: none;
+}
+
+.thumbnail-loading-container {
+    text-align: center !important;
+    position: relative;
+    top: 9rem;
+}
+
+.upload-file-placeholder {
+    float: right !important;
+    background-color: #B7B7B7 !important;
+    width: 18rem !important;
+    height: 4rem !important;
+    position: relative !important;
+    left: 4.5rem !important;
+    text-align: center !important;
+    color: #1E1E1E !important;
+    padding-top: 1.2rem !important;
+    opacity: 0.5 !important;
+}
+
+.upload-file-placeholder-text {
+    margin-left: 10px;
+}
+.upload-thumbnail-style{
+     float: right;
+     cursor: pointer;
+}
+.cloud-icon{
+        display: inline-block;
+        position: relative;
+        top: -2rem;
+}
+
+.drag-drop{
+        font-size: 22px;
+        color: #000;
+}
+.file-sizing{
+        font-size: 22px;
+}
+.color-of-size{
+ color: red;
+  font-size: 14px;
+}
+.button-styling{
+  float: right;
+}
+.colud-styling{
+    display: inline-block;
+    margin-left: 10px;
+}
+.icon-speciification{
+    color: #00ABE3;
+    margin-left: 5px;
+  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+    .modal-dialog.uploadControl {
+        width: 98% !important;
+    }
+}

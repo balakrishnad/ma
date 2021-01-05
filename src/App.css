@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'Myriad-Pro';
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-REGULAR.OTF') format('truetype'), url('./styles/fonts/MYRIADPRO/MYRIADPRO-REGULAR.eot?#iefix') format('embedded-opentype');
+}
+
+/* @font-face {
+  font-family: 'Myriad Pro, Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-BOLD.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-BOLDCOND.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-BOLDCONDIT.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-BOLDIT.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-COND.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-CONDIT.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MyriadPro-Light.otf') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-REGULAR.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-SEMIBOLD.OTF') format('truetype');
+  src: url('./styles/fonts/MYRIADPRO/MYRIADPRO-SEMIBOLDIT.OTF') format('truetype');
+} */
+
+body {
+  margin: 0;
+  font-family: "Myriad-Pro", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: unset;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.MuiGrid-spacing-xs-5>.MuiGrid-item {
+  padding: 0 20px;
+}
+
+.MuiGrid-spacing-xs-5 .MuiGrid-root.state {
+  padding: 20px 39px 0px 10px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background: transparent linear-gradient(270deg, #0093DF 0%, #004EB4 100%) 0% 0% no-repeat padding-box;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+/* css for Navbar*/
+
+.MuiTab-labelIcon .MuiTab-wrapper {
+  flex-direction: initial;
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 219, 1) 0%, rgba(0, 176, 255, 0.8071603641456583) 105%);
+}
+
+.MuiTab-labelIcon .MuiTab-wrapper>*:first-child {
+  margin-right: 6px;
+}
+
+.MuiTabs-indicator.PrivateTabIndicator-colorSecondary-269 {
+  background-color: skyblue;
+}
+
+.MuiTabs-indicator.PrivateTabIndicator-root-267 {
+  height: 4px;
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+  font-weight: bold;
+}
+
+.MuiTabs-flexContainer .MuiTab-labelIcon {
+  min-height: 50px;
+}
+
+/* ends*/
+
+.active {
+  border-bottom: 4px solid #28BEF0;
+  color: #FFFFFF;
+}
+
+.uldata li {
+  color: #B3CAE8
+}
+
+.uldata li:hover {
+  color: #fff;
+}
+
+.uldata .active {
+  color: #fff;
+}
+
+.uldata li:hover .SVG {
+  color: #fff;
+}
+
+.uldata li:hover .SVG path {
+  fill: #fff;
+}
+
+.SVG {
+  z-index: 1000;
+}
+
+.SVG .dashbordIcon {
+  transform: translate(0px, -1px);
+}
+
+.SVG path, .SVG rect {
+  fill: #b3cae8;
+}
+
+.SVG:hover path {
+  color: #FFF;
+}
+
+.active .SVG path {
+  fill: #fff;
+}
+
+.menu-ul-main {
+  display: flex !important;
+  list-style-type: none !important;
+  margin-block-end: 0px !important;
+  margin-block-start: 0px !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+}
+
+.menu-header {
+  background: transparent linear-gradient(270deg, #0093DF 0%, #004EB4 100%) 0% 0% no-repeat padding-box;
+  color: white;
+  /* height: 51px; */
+}
+
+.main-component-style {
+  top: 0px;
+  left: 0px;
+  /* height: 916px; */
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  overflow: hidden; 
+}
+
+.menu-li-list {
+  padding: 1.1rem 0.78rem 0.4rem 0.78rem;
+  margin: 0 0.75rem;
+  line-height: initial;
+}
+
+.menu-li-link {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  top: 0.4rem;
+}
+
+.menu-li-link:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.menu-li-link-div-main {
+  display: flex;
+  letter-spacing: -0.4px;
+}
+
+.menu-li-link-div-main>div {
+  padding-right: 0.5rem;
+  font-size: 16px;
+  font-family: 'Myriad-Pro';
+  position: relative;
+  bottom: 10px;
+}
+
+.truncate {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 30px !important;
+}
+
+.truncate-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 10px !important;
+}
+
+.calendar-icon-container {
+  position: relative;
+  float: right;
+  bottom: 40px;
+}
+
+.calendar-clear-icon {
+  position: absolute;
+  cursor: pointer;
+  right: 1.2rem;
+}
+
+.calendar-icon-container .calendar-clear-icon {
+  float: left;
+}
+
+.upload-clear-icon {
+  position: absolute;
+  cursor: pointer;
+  right: 1.6rem;
+}
+
+.calendar-icon-container .upload-clear-icon {
+  float: left;
+}
+
+.calendar-icon {
+  cursor: pointer;
+}
+
+.calendar-icon-container .calendar-icon {
+  float: right;
+  margin-left: 10px;
+}
+
+.loading-container {
+  right: 50%;
+  position: absolute;
+  z-index: 1000;
+  top:70%;
+}
+/* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+  .menu-li-list {
+      padding: 0.5rem 0;
+      margin: 0px 0.8rem;
+  }
+  .menu-li-link {
+    top: 0.5rem;
+}
+.menu-li-link-div-main>div {
+  font-size: 14px;
+}
+}

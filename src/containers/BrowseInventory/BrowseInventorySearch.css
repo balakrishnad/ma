@@ -1,0 +1,94 @@
+.BrowseInventoriesSearch .card-body {
+    padding: 0;
+}
+
+.BrowseInventoriesSearch .card-title {
+    font-family: "Myriad-Pro";
+    color: #004EB4;
+    font-weight: bold;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+}
+
+.BrowseInventoriesSearch .btnGroup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnGroup .SearchBtn {
+    margin-right: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #008240;
+    border: 1px solid #008240;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+
+.btnGroup .SearchBtn:hover {
+    background-color: #008240;
+    color: #fff;
+}
+
+.inven-availability-calender-icon {
+    position: relative;
+    float: right;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.popover {
+    max-width: 600px !important;
+}
+
+.arrow {
+    display: none !important;
+}
+
+.invetory-browse{
+   box-shadow: 0px 1px 8px #00000029;
+    border-radius: 0;
+}
+.division-display{
+     display: flex;
+}
+.location-state{
+ padding-left: 0;
+}
+.state-location{
+    padding-right: 0;
+   }
+
+
+
+/* added to make it responsive (Mobile) */
+.p-2rem{padding:2rem}
+.M-bottom-3rem{margin-bottom:3rem;}
+.M-bottom-2rem{margin-bottom:2rem;}
+.displayBlock{display:block;}
+@media only screen and (max-width: 767px) {
+    .p-2rem{padding:1rem 0}
+    .M-bottom-3rem,.M-bottom-2rem{margin-bottom:0;}
+    .BrowseInventoriesSearch .card-body{padding-bottom: 1.25rem;}
+    .displayBlock{justify-content: space-around;    display: flex;}
+    /* .BrowseInventoriesSearch .btnGroup {margin-left: 4.5rem;} */
+    .BrowseInventoriesSearchMobile .col-12{min-height: 5.2rem;}
+    .BrowseInventoriesSearchMobile{margin-bottom: 1rem;}
+    .Browse-Inventory-wrapper .available-inventory-card .ActionAR {display: none!important;}
+    .BrowseInventoriesSearch .btnGroup{margin-left: 0;}
+  }
+
+  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .ipad-spaces{
+        margin-bottom: 2rem;
+      }
+      .row.displayBlock {
+        display: block;
+    }
+}
+ 
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+    .ipad-spaces{
+        margin-bottom: 0;
+      }
+}

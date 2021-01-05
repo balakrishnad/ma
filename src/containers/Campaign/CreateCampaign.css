@@ -1,0 +1,57 @@
+.create-campaign-container .card-body {
+    padding: 0;
+}
+
+.create-campaign-card-container {
+    width: 90%;
+    margin: 3rem auto;
+    box-shadow: 0px 1px 8px #00000029;
+}
+
+.create-campaign-container .card-title {
+    font-family: "Myriad-Pro";
+    color: #004EB4;
+    font-weight: bold;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+}
+
+.popover {
+    max-width: 600px !important;
+}
+
+.arrow {
+    display: none !important;
+}
+
+.cc-btnGroup {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cc-btnGroup .SearchBtn {
+    margin-right: 16px;
+}
+
+.alert-info-icon {
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.alert-info-message {
+    color: #000000;
+    font-weight: 600;
+}
+.campaign-create{
+   padding: 2rem;
+}
+.row-campaign{
+   margin-bottom: 3rem;
+}
+.notes-campaign{
+   margin-bottom: 3rem;
+}
+.group-button{
+   display: block;
+}

@@ -1,0 +1,23 @@
+.date-picker-ok-button {
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
+
+.date-picker-button {
+    padding: 3px 10px;
+}
+
+input[type='radio'], .radio-inline{   
+    padding: 10px;
+    margin: 10px;
+    vertical-align: middle;
+ }
+
+.radio-span {
+    margin: 10px;
+}
+
+div:focus{
+    outline: none !important;
+}

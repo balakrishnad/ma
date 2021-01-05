@@ -1,0 +1,50 @@
+.action-buttons-conatiner {
+    width: 200px;
+    /* margin-left: -1rem; */
+}
+
+.right-action-icon {
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.right-action-icon:hover {
+    opacity: 1;
+}
+
+.delete-action-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.delete-action-icon:hover {
+    opacity: 1;
+}
+
+.left-action-icon {
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.left-action-icon:hover {
+    opacity: 1;
+}
+
+.action-icon {
+    top: 30%;
+    position: relative;
+}

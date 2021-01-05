@@ -1,0 +1,61 @@
+.Workflow-report-wrapper{
+    width: 92%;
+    margin: 3rem auto;
+}
+.Workflow-report-wrapper .card-title {
+    font-family: "Myriad-Pro";
+    color: #004EB4;
+    font-weight: bold;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+}
+.Workflow-report-wrapper .card-body {
+    padding: 0;
+}
+.Workflow-report-wrapper .p-2rem {
+    padding: 2rem;
+}
+.Workflow-report-wrapper .M-bottom-3rem {
+    margin-bottom: 3rem;
+}
+.Workflow-report-wrapper .truncate {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 30px !important;
+}
+.Workflow-report-wrapper .btnGroup {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Workflow-report-wrapper .displayBlock {
+    display: block;
+    margin: 0;
+}
+.Workflow-report-wrapper .dotted_line {
+    border-bottom: 1px dashed #707070;
+    width: 100%;
+    display: inline-block;
+}
+.Workflow-report-wrapper .no-results {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+.workflow-loading-container {
+    right: 50%;
+    position: absolute;
+    z-index: 1000;
+    top: 60%; 
+}
+.popover {
+    max-width: 600px !important;
+}
+.shadow-radius{
+  box-shadow: 0px 1px 8px #00000029;
+         border-radius: 0;
+}
+.dotted-results{
+    margin-top: 2rem;
+ }

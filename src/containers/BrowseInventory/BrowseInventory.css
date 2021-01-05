@@ -1,0 +1,219 @@
+.available-inventory-card {
+    padding-top: 2rem;
+}
+
+.result-header {
+    padding: 1.2rem 0 0;
+}
+
+.dotted_line {
+    border-bottom: 1px dashed #707070;
+    width: 100%;
+    display: inline-block;
+}
+
+.available-inventory-title {
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.available-inventory-card .action-icon {
+    left: 25%;
+}
+
+.no-of-records {
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #817F7F;
+    opacity: 1;
+    padding: 0.5rem 0;
+}
+
+.myInventory {
+    padding-top: 2.25rem;
+}
+
+.filterText {
+    display: flex;
+    align-items: flex-end;
+}
+
+.no-results {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.filterHeight {
+    max-height: 11.5rem;
+}
+
+.edit-inventory-title {
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+}
+
+.delete-button-conatiner {
+    text-align: center;
+}
+
+.modal-60w {
+    width: 60%;
+    max-width: none !important;
+}
+
+.Browse-Inventory-wrapper {
+    width: 92%;
+    margin: 3rem auto;
+}
+
+.Title-Mobile {
+    display: none;
+}
+
+.exportAllLink {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #276BBF !important;
+    opacity: 1;
+    text-decoration: underline !important;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.exportAllImg {
+    height: 17px;
+    opacity: 0.5;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.export-all{
+    text-align: center;
+    margin-top: 2rem;
+}
+.exportAllImg:hover {
+    opacity: 1;
+}
+.browse-invent{
+    margin: 1.5rem auto;
+     width: 92%;
+}
+.Browse-Inventory-wrapper .exportAllLink .all-export{
+      margin:0 0.2rem 0.5rem 0.2rem;
+}
+.proceed-msg{
+     margin-left: 3rem;
+}
+
+.bi-pagination-container {
+    float: left;
+}
+
+.change-view {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+.change-view #download-pdf {
+    cursor: pointer;
+}
+
+.change-view #Card, #timeline {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.download-progress-modal-30w {
+    width: 10rem;
+    max-width: none !important;
+}
+
+.download-progress-modal-30w .modal-content{
+    border-radius: 0.5rem !important;
+}
+
+.download-progress-text {
+    text-align: center;
+}
+
+.browse-inventory-loading-container {
+    right: 50%;
+    top: 80%;
+    position: absolute;
+    z-index: 1000;
+}
+
+
+/* added for mobile */
+
+@media only screen and (max-width: 767px) {
+    .Title-Mobile {
+        background: transparent linear-gradient(270deg, #0093DF 0%, #004EB4 100%) 0% 0% no-repeat padding-box;
+        color: #fff;
+        padding: 1rem;
+        display: block;
+    }
+    .Browse-Inventory-wrapper {
+        width: 92%;
+        margin: 0rem auto;
+    }
+    .filterText {
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .hideMobile,.dotted_line {
+        display: none;
+    }
+    .pagination {
+        justify-content: center;
+    }
+    .available-inventory-card {
+        padding: 1rem 0;
+    }
+    .view-asset-info-media {
+        width: 100%;
+    }
+    .view-asset-info-media-content {
+        width: auto;
+    }
+    .myInventory {
+        padding-top: 0.25rem;
+        padding-bottom: .80rem;
+    }
+    .bi-pagination-container {
+        float: none;
+    }
+   
+}
+
+
+/* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+    .Browse-Inventory-wrapper {
+    width: 96%;
+    margin: 1.5rem auto;
+    }
+    .BrowseInventoriesSearch .card-title {
+        padding: 1rem;
+    }
+    .p-2rem {
+        padding: 1rem;
+    }
+    .card-text:last-child{
+        margin-bottom: 1rem;
+    }
+    .bi-pagination-container {
+        float: none;
+    }
+}

@@ -1,0 +1,177 @@
+.pendingApprovals-container {
+    text-align: center;
+}
+
+.pendingApprovals {
+    margin: 1rem auto;
+}
+
+.pendingApprovals-filter-section {
+    z-index: 1000;
+    position: relative;
+    text-align: left;
+}
+
+.pendingApprovals-title {
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    font-size: 20px;
+    text-align: left;
+}
+
+.pendingApprovals-result {
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #817F7F;
+    opacity: 1;
+    text-align: left;
+}
+
+.pendingApprovals-dotted_line{
+    border-bottom: 1px dashed #707070;
+    width: 100%;
+    display: inline-block;
+}
+
+.pendingApprovals-cards-container {
+    margin-top: 15px;
+    text-align: center;
+    bottom: 2rem;
+}
+
+.pendingApprovals-card {
+    margin: 0 0 30px 0;
+}
+
+.pendingApprovals-filterby {
+    width: 10rem;
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 30px;
+}
+
+.pendingApprovals-filterby-text {
+    width: 10rem;
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
+
+.pendingApprovals-inventory-no-data {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.pendingApprovals-loading-container {
+    right: 50%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.pendingApprovals-info-message-container {
+    width: 50%
+}
+
+.alert-info-message {
+    margin-left: 10px;
+}
+
+.view-pendingApprovals-container {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.reject-inventory-header {
+    background-color: #00ABE3;
+}
+
+.reject-inventory-title {
+    font-size: 20px;
+}
+
+.reject-inventory-body input[type=text] {
+    display: table-row-group;
+    border: 0;
+    width: 100%;
+    padding: 8px 0;
+    margin: 0 0 7px 0;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #1E1E1E;
+    font-family: "Myriad-Pro";
+}
+
+.reject-inventory-body input[type=text]:focus {
+    outline: none;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+}
+
+.reject-inventory-support-text {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.reject-button-conatiner {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.reject-button-conatiner .reject-button {
+    font-size: 16px !important;
+}
+
+.modal-60w {
+    width: 60%;
+    max-width: none !important;
+}
+
+.dotted_line{
+    border-bottom: 1px dashed #707070;
+    width: 100%;
+    display: inline-block;
+}
+.filterBy {
+    position: relative;
+    bottom: 1.2rem;
+}
+.filterType .MA_Dropdown {
+    bottom: 1.2rem;
+}
+.Title-Mobile {
+    display: none;
+}
+@media only screen and (max-width:767px){
+    .Title-Mobile {
+        background: transparent linear-gradient(270deg, #0093DF 0%, #004EB4 100%) 0% 0% no-repeat padding-box;
+        color: #fff;
+        padding: 1rem;
+        display: block;
+        
+    }
+    .pendingApprovals-title{
+        display: none;
+    
+    }
+    
+    .status-container{
+        line-height: 1.6;
+    }
+}   
+
+/* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+    .Title-Mobile {
+        display: none;
+    }
+  }

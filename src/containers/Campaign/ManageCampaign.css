@@ -1,0 +1,127 @@
+.manage-campaign-container .card-body {
+    padding: 0;
+}
+
+.manage-campaign-card-container {
+    width: 90%;
+    margin: 3rem auto;
+    box-shadow: 0px 1px 8px #00000029;
+}
+
+.recent-added-campaign-conatiner {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.recent-added-campaign-title {
+    letter-spacing: 0;
+    color: #333333;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.recent-added-campaign-result {
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #817F7F;
+    opacity: 1;
+}
+
+.manage-campaign-container .card-title {
+    font-family: "Myriad-Pro";
+    color: #004EB4;
+    font-weight: bold;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+}
+
+.popover {
+    max-width: 600px !important;
+}
+
+.arrow {
+    display: none !important;
+}
+
+.mc-btnGroup {
+    text-align: right;
+}
+
+.mc-btnGroup .SearchBtn {
+    margin-right: 16px;
+}
+
+.dotted_line {
+    border-bottom: 1px dashed #707070;
+    width: 100%;
+    display: inline-block;
+}
+
+.manage-campaign-cards-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.manage-campaign-card {
+    margin: 10px 0px;
+}
+
+.alert-info-icon {
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.alert-info-message {
+    color: #000000;
+    font-weight: 600;
+}
+
+.edit-campaign-loading-container {
+    right: 50%;
+    position: absolute;
+}
+
+.back-arrow {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    color: #1779DC;
+}
+
+.view-available-inventory-container {
+    width: 90%;
+    margin: 3rem auto;
+}
+.no-inventory-data {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+.myCampaign {
+    display: flex;
+    justify-content: flex-end;
+}
+.manage-campaign-card .action-icon {
+    top: 30%;
+}
+.name-campaign {
+    padding: 2rem;
+}
+.campaign-adjust{
+    margin-bottom: 3rem;
+}
+.campaign-contact{
+    margin-bottom: 3rem;
+}
+.group-button{
+   display: block;
+}
+.recently-added{
+    align-items: flex-end;
+}
+
+/* added for Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+    .view-available-inventory-container {
+        width: 96%;
+    }
+}

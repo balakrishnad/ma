@@ -1,0 +1,32 @@
+.MA_Tooltip {
+    position: relative;
+    /* display: inline-flex; */
+    min-width: 7rem;
+    /* height: 36px; */
+    border: 1px solid #E78553;
+    background-color: #FFEED9;
+    border-radius: 8px;
+    font-size: 10px;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+
+.MA_ToolInnerBox {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFEED9;
+    border-bottom: 1px solid #E78553;
+    border-left: 1px solid #E78553;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    top: 13px;
+    left: -6px;
+}
+
+p {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
