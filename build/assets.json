@@ -1,0 +1,83 @@
+{
+  "app": {
+    "js": "/app.bundle.js"
+  },
+  "assetDownload": {
+    "js": "/assetDownload.f5955ffd9f3402a775e9.bundle.chunk.js"
+  },
+  "assetUpload": {
+    "js": "/assetUpload.96925ae1a2040e173a3b.bundle.chunk.js"
+  },
+  "browseInventory": {
+    "js": "/browseInventory.fbfc51a2940156a34fee.bundle.chunk.js"
+  },
+  "commons~assetDownload~0d100c5f": {
+    "js": "/commons~assetDownload~0d100c5f.ff81ec8da9bec531ee2f.bundle.chunk.js"
+  },
+  "commons~assetDownload~8d3a7428": {
+    "js": "/commons~assetDownload~8d3a7428.5355dee4b4227cff10f5.bundle.chunk.js"
+  },
+  "commons~assetDownload~c2a3b7c8": {
+    "js": "/commons~assetDownload~c2a3b7c8.c61a21dd16b11484ef12.bundle.chunk.js"
+  },
+  "commons~createInventory": {
+    "js": "/commons~createInventory.9660a1c437225bef873c.bundle.chunk.js"
+  },
+  "createCampaign": {
+    "js": "/createCampaign.23b563dbbb5f6cbdc790.bundle.chunk.js"
+  },
+  "createInventory": {
+    "js": "/createInventory.8f6d71a7eddd8e9c4d7b.bundle.chunk.js"
+  },
+  "dashboard": {
+    "js": "/dashboard.40f81d9c0d0dd89e91bb.bundle.chunk.js"
+  },
+  "home": {
+    "js": "/home.847032cb5c473b6635dd.bundle.chunk.js"
+  },
+  "manageCampaign": {
+    "js": "/manageCampaign.be1176f8bdf41a6b32a3.bundle.chunk.js"
+  },
+  "manageUsers": {
+    "js": "/manageUsers.5caf25b0160eeefbc726.bundle.chunk.js"
+  },
+  "mediaAnnexApp": {
+    "js": "/mediaAnnexApp.a3864fffe5968be89d17.bundle.chunk.js"
+  },
+  "notifications": {
+    "js": "/notifications.1527bc6997babf77b95e.bundle.chunk.js"
+  },
+  "pendingApprovals": {
+    "js": "/pendingApprovals.783580117aa76cc94ba3.bundle.chunk.js"
+  },
+  "vendors": {
+    "js": "/vendors.88b89cc7fcf5037eef36.bundle.chunk.js"
+  },
+  "workflowReporting": {
+    "js": "/workflowReporting.3198a6cadf314231b344.bundle.chunk.js"
+  },
+  "": {
+    "html": "/./index.html",
+    "png": [
+      "/0ed152423e767151a7680e37eb10e551.png",
+      "/2cede95d626968ba69c367cadc74cc22.png",
+      "/6920bd1f3fafb176c25a8b3042eed568.png",
+      "/8972dfefbcf30a8dce63c5b7f03f429c.png"
+    ],
+    "eot": "/104190e92f562d06530295f75c2b1df7.eot",
+    "svg": [
+      "/286fa9f7c4bebdee1364afb0de0278c0.svg",
+      "/302a4f110fee982dce5fdd7ff21e015c.svg",
+      "/37a2659969cf9b9e6a17f7cd2c3f6d19.svg",
+      "/662544142074ab0a70112f044b66ac4a.svg",
+      "/87eaf5569c32000dc9f05a7be1dfdcb5.svg",
+      "/ad9089b9303237d179e72406fd75e38c.svg",
+      "/dea115b163d3eba145cdb6b2b7fc0b33.svg",
+      "/f1969065e16684167052a0cad4dcf758.svg",
+      "/f3a5e71392895f0c846116dd7a8fae6f.svg",
+      "/fec7a88b8ceef8f909d2adfa77b034f8.svg"
+    ],
+    "otf": "/d75d7f70aa160104a45a743eae7a8a7e.OTF",
+    "json": "/b3225d987c892163a59a.hot-update.json"
+  }
+}
